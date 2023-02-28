@@ -1,11 +1,17 @@
-import { Button } from "react-bootstrap";
 import Menu from "./components/Menu";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <Menu />
-    </div>
+    <>
+      <header>
+        <Menu />
+      </header>
+      <main></main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
 
