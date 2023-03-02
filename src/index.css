@@ -70,3 +70,74 @@ footer {
 .footer-general {
   display: flex;
 }
+
+/* Main styles */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url("https://res.cloudinary.com/dmatgvjjy/image/upload/v1677523041/Seasinglab/lab_1_ykolrc.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.btn-hero {
+  padding: 1rem 2rem;
+  background-color: rgb(0, 153, 185);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.btn-hero:hover {
+  background-color: rgb(3, 115, 144);
+  color: lightgray;
+}
+
+.anchor-hero {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.anchor-hero:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* about us */
+.us {
+  height: 100vh;
+}
+
+.conteiner-animation {
+  perspective: 800px;
+}
+
+.flask {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.flask:hover {
+  transform: rotateY(45deg);
+}
+
+.paragraph-us {
+  font-family: "Roboto";
+  font-size: 1.125rem;
+  line-height: 1.5em;
+}
+
+/* Form */
+
+#form {
+  height: 100vh;
+}
+
+/* copyright */
+.copyright {
+  height: 4rem;
+  background-color: rgb(0, 153, 185);
+  color: #ffffff;
+  font-size: 1.3rem;
+}
