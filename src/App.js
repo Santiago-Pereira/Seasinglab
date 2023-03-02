@@ -1,9 +1,10 @@
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
-import Baner from "./components/Baner";
+import Banner from "./components/Banner";
 import Us from "./components/Us";
 import CopyRight from "./components/CopyRight";
 import Form from "./components/Form";
+import Whatsapp from "./components/Whatsapp";
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
         <Menu />
       </header>
       <main>
-        <Baner />
+        <Banner />
         <Us />
         <Form />
       </main>
       <footer>
+        <Whatsapp />
         <Footer />
       </footer>
       <CopyRight />

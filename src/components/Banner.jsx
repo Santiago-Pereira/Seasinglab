@@ -1,16 +1,18 @@
 import React from "react";
 
-const Baner = () => {
+const Banner = () => {
   return (
     <>
       {/* <!-- Hero section --> */}
       <section className="hero d-flex justify-content-center align-items-center">
         <div className="text-center">
-          <h1 className="fs-1 mb-3">SEASINGLAB</h1>
-          <p className="fs-4 mb-3">Química & instrumental</p>
-          <button id="btn-cotization" className="btn-hero border-0 fs-4">
+          <div className="background-title">
+            <h1 className="seasing-title mb-0">Seasinglab</h1>
+            <p className="fs-4 ">Química & instrumental</p>
+          </div>
+          <button id="btn-cotization" className="btn-hero border-0 fs-6">
             <a href="/#form" className="anchor-hero">
-              Solicitá cotización
+              SOLICITÁ COTIZACIÓN
             </a>
           </button>
         </div>
@@ -19,4 +21,4 @@ const Baner = () => {
   );
 };
 
-export default Baner;
+export default Banner;

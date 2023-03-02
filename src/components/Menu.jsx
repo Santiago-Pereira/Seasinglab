@@ -6,11 +6,11 @@ import React from "react";
 
 function Menu() {
   return (
-    <Navbar fixed="top" expand="lg" className="nav-styles">
+    <Navbar expand="lg" className="nav-styles fixed-top">
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="#"
+            src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1677795133/Seasinglab/Proyecto_nuevo_1_supps8.png"
             className="d-inline-block align-top"
             alt="logo Seasinglab"
           />
