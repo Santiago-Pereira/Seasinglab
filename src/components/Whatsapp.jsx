@@ -10,8 +10,8 @@ const Whatsapp = () => {
       <Button className="btn-wpp btn-animation">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="60"
-          height="60"
+          width="40"
+          height="40"
           fill="white"
           className="bi bi-whatsapp"
           viewBox="0 0 16 16"
