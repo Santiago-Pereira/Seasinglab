@@ -1,6 +1,3 @@
-import React, { useEffect } from "react";
-import ButtonBanner from "./ButtonBanner";
-
 const Banner = () => {
   return (
     <>
@@ -16,7 +13,6 @@ const Banner = () => {
               SOLICITÁ COTIZACIÓN
             </a>
           </button>
-          <ButtonBanner />
         </div>
       </section>
     </>

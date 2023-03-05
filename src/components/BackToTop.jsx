@@ -1,18 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
-function ButtonBanner() {
-  const [backToTop, setBackToTop] = useState(false);
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY) {
-        setBackToTop(true);
-      } else {
-        setBackToTop(false);
-      }
-    });
-  }, []);
-
+function BackToTop() {
   const scrollUp = () => {
     window.scrollTo({
       top: 0,
@@ -21,7 +9,6 @@ function ButtonBanner() {
   };
   return (
     <>
-      {ButtonBanner && (
         <button className="back-to-top-btn" onClick={scrollUp}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +19,7 @@ function ButtonBanner() {
             viewBox="0 0 16 16"
           >
             <path
-              fill-rule="evenodd"
+              fill-rule="1evenodd"
               d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
             />
             <path
@@ -41,9 +28,8 @@ function ButtonBanner() {
             />
           </svg>
         </button>
-      )}
     </>
   );
 }
 
-export default ButtonBanner;
+export default BackToTop;
