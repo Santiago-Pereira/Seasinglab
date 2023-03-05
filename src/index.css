@@ -177,6 +177,17 @@ footer {
   transform: scale(1.2);
   background-color: rgb(0, 153, 185);
 }
+/* back to top btn styles */
+.back-to-top-btn {
+  position: fixed;
+  bottom: 10rem;
+  right: 2.6rem;
+  border: none;
+  background-color: transparent;
+  color: #010101;
+  width: 40px;
+  height: 40px;
+}
 
 /* copyright */
 .copyright {
