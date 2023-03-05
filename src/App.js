@@ -5,6 +5,7 @@ import Us from "./components/Us";
 import CopyRight from "./components/CopyRight";
 import Form from "./components/Form";
 import Whatsapp from "./components/Whatsapp";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
       </main>
       <footer>
+      <BackToTop />
         <Whatsapp />
         <Footer />
       </footer>
