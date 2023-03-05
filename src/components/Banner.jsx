@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
+import ButtonBanner from "./ButtonBanner";
 
 const Banner = () => {
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       {/* <!-- Hero section --> */}
@@ -15,6 +22,10 @@ const Banner = () => {
               SOLICITÁ COTIZACIÓN
             </a>
           </button>
+          <button onClick={handleClick}>Scroll down</button>
+
+          <ButtonBanner ref={ref} />
+
         </div>
       </section>
     </>
