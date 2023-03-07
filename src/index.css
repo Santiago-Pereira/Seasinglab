@@ -9,12 +9,18 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://res.cloudinary.com/dmatgvjjy/image/upload/v1678233148/Seasinglab/fondoBody_nhecjy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /* a links styles*/
 a {
   text-decoration: none;
   color: black;
 }
+
 a:hover {
   transition: all 1s ease;
   color: rgba(103, 225, 255, 0.9);
@@ -38,10 +44,12 @@ a:hover {
   font-size: large;
   color: white;
 }
+
 .nav-links :hover {
   color: rgba(103, 225, 255, 0.9);
   transition: all 1.5s ease;
 }
+
 #basic-nav-dropdown {
   color: white;
 }
@@ -56,14 +64,17 @@ a:hover {
   position: relative;
   z-index: 1000;
 }
+
 .seasing-title {
   font-family: "Brisa Regular";
   font-size: 5rem;
   font-weight: 500;
 }
+
 .seasing-title h1 {
   line-height: 53px;
 }
+
 .background-title {
   background-color: rgb(3, 115, 144, 0.9);
   padding-right: 1.2rem;
@@ -99,12 +110,14 @@ a:hover {
 .us {
   height: 100vh;
   margin-top: 10rem;
+
 }
 
 @media only screen and (max-width: 768px) {
   .us {
     height: 100vh;
     margin-top: 10rem;
+
   }
 }
 
@@ -139,30 +152,39 @@ footer {
   height: 15rem;
   background-color: #d9d9d9;
   margin-top: 2rem;
+
 }
+
 @media only screen and (max-width: 768px) {
   footer {
     height: 26rem;
+    margin-top: 10rem;
+
   }
 }
+
 .footer-styles {
   margin-top: 6rem;
 }
+
 .footer-icons-styles {
   width: 30px;
   height: 30px;
   margin-top: 5.9rem;
   margin-right: 0.5rem;
 }
+
 @media (min-width: 1000px) {
   .footer-general {
     display: flex;
     justify-content: center;
   }
 }
+
 .footer-general {
   display: flex;
 }
+
 .btn-wpp {
   border-radius: 50%;
   background-color: green;
@@ -173,10 +195,12 @@ footer {
   z-index: 2000;
   transition: all 1s ease-in-out;
 }
+
 .btn-animation:hover {
   transform: scale(1.2);
   background-color: rgb(0, 153, 185);
 }
+
 /* back to top btn styles */
 .back-to-top-btn {
   position: fixed;
@@ -191,9 +215,9 @@ footer {
 
 /* copyright */
 .copyright {
-  height: 2.5rem;
   background-color: rgb(0, 0, 0);
   color: #ffffff;
   font-size: 1.3rem;
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  padding: 0.3rem;
 }
