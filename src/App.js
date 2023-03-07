@@ -1,11 +1,11 @@
 import Menu from "./components/Menu";
-import Footer from "./components/Footer";
+import SectionFooter from "./components/SectionFooter";
 import Banner from "./components/Banner";
 import Us from "./components/Us";
 import CopyRight from "./components/CopyRight";
 import Form from "./components/Form";
 import Whatsapp from "./components/Whatsapp";
-import BrandsCarousel from "./components/BrandsCarousel";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
@@ -15,16 +15,16 @@ function App() {
       </header>
       <main>
         <Banner />
-
         <Us />
         <BrandsCarousel />
         <Form id="scroll-down" />
       </main>
       <footer>
-        <Whatsapp />
-        <Footer />
+        <SectionFooter />
+        <CopyRight />
       </footer>
-      <CopyRight />
+      <BackToTop />
+      <Whatsapp />
     </>
   );
 }

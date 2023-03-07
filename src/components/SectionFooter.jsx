@@ -4,7 +4,8 @@ import tel from "../images/smartphone.png";
 import email from "../images/envelope.png";
 import location from "../images/pin.png";
 
-function Footer() {
+// TODO MOVER LAS IMG DENTRO DE LOS A !
+function SectionFooter() {
   return (
     <Container /* className="d-flex justify-content-center" */>
       <Row>
@@ -18,7 +19,9 @@ function Footer() {
           <a
             href="mailto:seasinglab@gmail.com"
             className="footer-styles"
-            target={"_blank"}
+            target="_blank"
+            rel="noreferrer"
+
           >
             seasinglab@gmail.com
           </a>
@@ -33,10 +36,9 @@ function Footer() {
           <a
             href="tel:+54-2494-620208"
             className="footer-styles"
-            target={"_blank"}
-          >
-            +54-2494-620208
-          </a>
+            target="_blank"
+            rel="noreferrer"
+          >+54-2494-620208</a>
         </Col>
         <Col sm={12} md={4} lg={4} className="footer-general">
           <img
@@ -48,7 +50,8 @@ function Footer() {
           <a
             href="https://goo.gl/maps/n2xay5vZgqF9rPGDA"
             className="footer-styles"
-            target={"_blank"}
+            target="_blank"
+            rel="noreferrer"
           >
             José Hernández 361, (7000) Tandil, BsAs-Argentina
           </a>
@@ -58,4 +61,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default SectionFooter;
