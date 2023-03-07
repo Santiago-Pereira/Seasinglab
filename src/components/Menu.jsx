@@ -6,7 +6,7 @@ import React from "react";
 
 function Menu() {
   return (
-    <Navbar expand="lg" className="nav-styles fixed-top">
+    <Navbar fixed="top" expand="lg" className="nav-styles fixed-top">
       <Container>
         <Navbar.Brand href="#home">
           <img

@@ -5,6 +5,7 @@ import Us from "./components/Us";
 import CopyRight from "./components/CopyRight";
 import Form from "./components/Form";
 import Whatsapp from "./components/Whatsapp";
+import BrandsCarousel from "./components/BrandsCarousel";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <Banner />
 
         <Us />
+        <BrandsCarousel />
         <Form id="scroll-down" />
-
       </main>
       <footer>
         <Whatsapp />

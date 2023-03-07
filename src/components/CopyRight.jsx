@@ -5,7 +5,6 @@ const CopyRight = () => {
   return (
     <Container fluid className="m-0 p-0">
       <p className="copyright text-center">
-        {" "}
         © 2023. Seasinglab Tandil. Todos los derechos reservados. Hecho por{" "}
         <a
           href="https://www.linkedin.com/in/lis-medina/"
