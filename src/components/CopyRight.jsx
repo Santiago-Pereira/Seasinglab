@@ -10,11 +10,16 @@ const CopyRight = () => {
           href="https://www.linkedin.com/in/lis-medina/"
           target={"_blank"}
           className="copyright"
+          rel="noreferrer"
         >
           Lis Medina
         </a>{" "}
         y{" "}
-        <a href="#" target={"_blank"} className="copyright">
+        <a href="https://www.linkedin.com/in/santiago-pereira-994229244/" 
+        target={"_blank"} 
+        className="copyright"
+        rel="noreferrer">
+        
           Santiago Pereira
         </a>
       </p>
