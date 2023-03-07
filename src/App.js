@@ -6,6 +6,7 @@ import CopyRight from "./components/CopyRight";
 import Form from "./components/Form";
 import Whatsapp from "./components/Whatsapp";
 import BackToTop from "./components/BackToTop";
+import BrandsCarousel from "./components/BrandsCarousel";
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
       </main>
       <footer>
         <SectionFooter />
-        <CopyRight />
       </footer>
+      <CopyRight />
       <BackToTop />
       <Whatsapp />
     </>
