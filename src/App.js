@@ -1,5 +1,5 @@
 import Menu from "./components/Menu";
-import Footer from "./components/Footer";
+import SectionFooter from "./components/SectionFooter";
 import Banner from "./components/Banner";
 import Us from "./components/Us";
 import CopyRight from "./components/CopyRight";
@@ -15,17 +15,15 @@ function App() {
       </header>
       <main>
         <Banner />
-
         <Us />
         <Form id="scroll-down" />
-
       </main>
       <footer>
-      <BackToTop />
-        <Whatsapp />
-        <Footer />
+        <SectionFooter />
+        <CopyRight />
       </footer>
-      <CopyRight />
+      <BackToTop />
+      <Whatsapp />
     </>
   );
 }
