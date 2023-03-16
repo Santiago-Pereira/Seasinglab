@@ -3,10 +3,10 @@ import SectionFooter from "./components/SectionFooter";
 import Banner from "./components/Banner";
 import Us from "./components/Us";
 import CopyRight from "./components/CopyRight";
-import Form from "./components/Form";
 import Whatsapp from "./components/Whatsapp";
 import BackToTop from "./components/BackToTop";
 import BrandsCarousel from "./components/BrandsCarousel";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Banner />
         <Us />
         <BrandsCarousel />
-        <Form id="scroll-down" />
+        <ContactForm id="scroll-down" />
       </main>
       <footer>
         <SectionFooter />
