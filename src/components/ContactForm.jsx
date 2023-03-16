@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Row, Col, Container } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 
 function ContactForm() {
   const form = useRef();
@@ -10,14 +10,15 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_h6m1gsc",
+        "template_n1foraw",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "Jtmr49j5_xBgs5Wob"
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert("Mensaje enviado con éxito");
         },
         (error) => {
           console.log(error.text);
@@ -25,35 +26,50 @@ function ContactForm() {
       );
   };
   return (
-    <>
-      <Container fluid>
+    <Container>
+      <div className="formulario">
         <form ref={form} onSubmit={sendEmail}>
-          <Row>
-            <Col sm={12} md={4}>
-              <label>Name</label>
-              <input type="text" name="user_name" />
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={4} md={4}>
-              <label>Email</label>
-              <input type="email" name="user_email" />
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={4} md={4}>
-              <label>Message</label>
-              <textarea name="message" />
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={4} md={4}>
-              <input type="submit" value="Send" />
-            </Col>
-          </Row>
+          <label htmlFor="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            placeholder="Decinos tu nombre"
+          />
+
+          <label htmlFor="email">Correo electrónico:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Decinos tu e-mail"
+          />
+
+          <label htmlFor="telefono">Teléfono:</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            required
+            placeholder="Decinos tu Teléfono"
+          />
+          <label htmlFor="consulta">Dejanos tu consulta</label>
+          <textarea
+            id="consulta"
+            name="consulta"
+            rows="4"
+            cols="33"
+            placeholder="Contanos tu inquietud"
+          ></textarea>
+
+          <button type="submit" className="jsahd">
+            Enviar
+          </button>
         </form>
-      </Container>
-    </>
+      </div>
+    </Container>
   );
 }
 
