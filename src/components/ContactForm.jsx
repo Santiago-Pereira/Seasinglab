@@ -38,7 +38,12 @@ function ContactForm() {
       );
   };
   return (
+    <div className="contact">
+    <h2 className="text-center my-4 contact">CONTACTO</h2>
+    <h4 className="text-center mb-3 mb-md-0">Completá con tus datos y un asesor te contactará a la brevedad.</h4>
+
     <div className="formulario">
+
       <form ref={form} onSubmit={sendEmail}>
         <label htmlFor="nombre">Nombre:</label>
         <input
@@ -62,7 +67,7 @@ function ContactForm() {
           id="telefono"
           name="telefono"
           required
-          placeholder="Decinos tu Teléfono"
+          placeholder="Decinos tu teléfono"
         />
         <label htmlFor="consulta">Dejanos tu consulta</label>
         <textarea
@@ -75,6 +80,7 @@ function ContactForm() {
         <button type="submit">Enviar</button>
       </form>
       <ToastContainer />
+    </div>
     </div>
 
   );

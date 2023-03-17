@@ -125,21 +125,12 @@ a:hover {
   perspective: 800px;
 }
 
-.flask {
-  transform-style: preserve-3d;
-  transition: transform 0.5s ease;
-}
-
-.flask:hover {
-  transform: rotateY(45deg);
-}
 
 .paragraph-us {
   font-family: "Roboto";
   font-size: 1.5rem;
   line-height: 1.5em;
 }
-
 
 /* Form */
 
@@ -158,6 +149,7 @@ label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 input,
@@ -167,20 +159,28 @@ textarea {
   margin-bottom: 20px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgb(0, 153, 185 ,0.2);
 }
 
 button[type="submit"] {
-  background-color: #333;
+  background-color: rgb(3, 115, 144);
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  text-transform: uppercase;
+  transition: all ease-in-out 3ms;
 }
+button[type="submit"]:hover {
+  background-color: rgb(0, 153, 185);
+}
+
+
+
 @media only screen and (max-width: 768px) {
-  .formulario {
-    margin-top: 13rem;
+  .contact {
+    margin-top: 35rem;
   }
   form {
     width: 80%;
@@ -236,10 +236,6 @@ footer {
   transition: all 1s ease-in-out;
 }
 
-.btn-animation:hover {
-  transform: scale(1.2);
-  background-color: rgb(0, 153, 185);
-}
 
 /* back to top btn styles */
 .back-to-top-btn {
