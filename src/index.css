@@ -109,22 +109,6 @@ a:hover {
 }
 
 /* about us */
-.us {
-  height: 100vh;
-  margin-top: 10rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .us {
-    height: 100vh;
-    margin-top: 35rem;
-    font-size: small;
-  }
-}
-
-.conteiner-animation {
-  perspective: 800px;
-}
 
 
 .paragraph-us {
@@ -134,7 +118,9 @@ a:hover {
 }
 
 /* Form */
-
+.contact{
+  background-color: #ddd;
+}
 .formulario {
   display: flex;
   flex-direction: row;
@@ -180,9 +166,7 @@ button[type="submit"]:hover {
 
 
 @media only screen and (max-width: 768px) {
-  .contact {
-    margin-top: 35rem;
-  }
+
   form {
     width: 80%;
   }
@@ -191,27 +175,18 @@ button[type="submit"]:hover {
 /* Footer styles */
 
 footer {
-  height: 20rem;
-  background-color: #d9d9d9;
-  margin-top: 2rem;
+  background-color: lightgray;
 }
 
-@media only screen and (max-width: 768px) {
-  footer {
-    height: 36rem;
-    margin-top: 10rem;
-  }
-}
+
 
 .footer-styles {
-  margin-top: 6rem;
   font-size: 1.5rem;
 }
 
 .footer-icons-styles {
   width: 30px;
   height: 30px;
-  margin-top: 6rem;
   margin-right: 0.5rem;
 }
 
@@ -251,18 +226,11 @@ footer {
 }
 
 /* copyright */
+.copy-container{
+  background: gray;
+}
 .copyright {
-  background-color: transparent;
-  color: #030303;
+  color: white;
   font-size: 1rem;
-  margin-bottom: 0px;
-  padding: 0.3rem;
-  width: 100%;
-  margin-top: 7rem;
 }
 
-@media only screen and (max-width: 768px) {
-  .copyright {
-    margin-top: 3.5rem;
-  }
-}

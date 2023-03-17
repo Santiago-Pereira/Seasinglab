@@ -4,9 +4,9 @@ import { Col, Row, Container } from "react-bootstrap";
 // TODO MOVER LAS IMG DENTRO DE LOS A !
 function SectionFooter() {
   return (
-    <Container /* className="d-flex justify-content-center" */>
-      <Row>
-        <Col sm={12} md={4} lg={4} className="footer-general">
+    <Container className="py-5">
+      <Row className="py-5">
+        <Col sm={12} md={4} lg={4} className="footer-general pb-5 pb-md-0">
           <img
             src="./images/envelope.png"
             className="footer-icons-styles img-fluid"
@@ -23,7 +23,7 @@ function SectionFooter() {
             seasinglab@gmail.com
           </a>
         </Col>
-        <Col sm={12} md={4} lg={4} className="footer-general">
+        <Col sm={12} md={4} lg={4} className="footer-general pb-5 pb-md-0">
           <img
             src="./images/smartphone.png"
             className="footer-icons-styles img-fluid"
@@ -37,7 +37,7 @@ function SectionFooter() {
             rel="noreferrer"
           >+54-2494-620208</a>
         </Col>
-        <Col sm={12} md={4} lg={4} className="footer-general">
+        <Col sm={12} md={4} lg={4} className="footer-general  pb-md-0">
           <img
             src="./images/pin.png"
             className="footer-icons-styles img-fluid"
