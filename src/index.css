@@ -116,7 +116,8 @@ a:hover {
 @media only screen and (max-width: 768px) {
   .us {
     height: 100vh;
-    margin-top: 10rem;
+    margin-top: 35rem;
+    font-size: small;
   }
 }
 
@@ -135,11 +136,10 @@ a:hover {
 
 .paragraph-us {
   font-family: "Roboto";
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   line-height: 1.5em;
 }
 
-/* clients carousel styles */
 
 /* Form */
 
