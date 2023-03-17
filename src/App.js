@@ -6,7 +6,7 @@ import CopyRight from "./components/CopyRight";
 import Whatsapp from "./components/Whatsapp";
 import BackToTop from "./components/BackToTop";
 import ContactForm from "./components/ContactForm";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Carousel from "./components/Carousel";
 import Brands from "./components/Brands";
@@ -20,17 +20,16 @@ function App() {
       <main>
         <Banner />
         <Us />
-        <Carousel/>
+        {/*  <Carousel /> */}
         <ContactForm id="scroll-down" />
-        <Brands/>
+        {/*  <Brands /> */}
       </main>
       <footer>
         <SectionFooter />
-      </footer>       
-
-      <CopyRight />
-      <BackToTop />
-      <Whatsapp />
+        <CopyRight />
+        <BackToTop />
+        <Whatsapp />
+      </footer>
     </>
   );
 }

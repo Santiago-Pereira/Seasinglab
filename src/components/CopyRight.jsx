@@ -3,10 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const CopyRight = () => {
   return (
-    <Container fluid className="m-0 p-0">
+    <Container fluid className="copy-container">
       <Row>
         <Col>
-
           <p className="copyright text-center">
             © 2023. Seasinglab Tandil. Todos los derechos reservados. Hecho por{" "}
             <a
@@ -18,11 +17,12 @@ const CopyRight = () => {
               Lis Medina
             </a>{" "}
             y{" "}
-            <a href="https://www.linkedin.com/in/santiago-pereira-994229244/"
+            <a
+              href="https://www.linkedin.com/in/santiago-pereira-994229244/"
               target={"_blank"}
               className="copyright"
-              rel="noreferrer">
-
+              rel="noreferrer"
+            >
               Santiago Pereira
             </a>
           </p>

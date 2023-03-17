@@ -37,6 +37,7 @@ a:hover {
     height: 100vh;
     overflow: hidden;
     transition: all 3s ease-in-out;
+    background-color: #010101;
   }
 }
 
@@ -138,6 +139,8 @@ a:hover {
   line-height: 1.5em;
 }
 
+/* clients carousel styles */
+
 /* Form */
 
 .formulario {
@@ -187,26 +190,27 @@ button[type="submit"] {
 /* Footer styles */
 
 footer {
-  height: 15rem;
+  height: 20rem;
   background-color: #d9d9d9;
   margin-top: 2rem;
 }
 
 @media only screen and (max-width: 768px) {
   footer {
-    height: 26rem;
+    height: 36rem;
     margin-top: 10rem;
   }
 }
 
 .footer-styles {
   margin-top: 6rem;
+  font-size: 1.5rem;
 }
 
 .footer-icons-styles {
   width: 30px;
   height: 30px;
-  margin-top: 5.9rem;
+  margin-top: 6rem;
   margin-right: 0.5rem;
 }
 
@@ -251,9 +255,17 @@ footer {
 
 /* copyright */
 .copyright {
-  background-color: rgb(0, 0, 0);
-  color: #ffffff;
-  font-size: 1.3rem;
+  background-color: transparent;
+  color: #030303;
+  font-size: 1rem;
   margin-bottom: 0px;
   padding: 0.3rem;
+  width: 100%;
+  margin-top: 7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .copyright {
+    margin-top: 3.5rem;
+  }
 }
