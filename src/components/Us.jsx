@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Us() {
   return (
-    <Container className="d-flex align-items-center us">
+    <Container className="d-flex align-items-center us min-vh-100 py-5">
       <Row>
         <Col sm={12} md={6} className="d-flex flex-column align-items-center">
           <h3 className="text-center text-uppercase fw-bold">Quiénes somos</h3>
@@ -39,8 +39,8 @@ function Us() {
           <p className="paragraph-us">Trabajamos estrechamente con nuestros proveedores
             y fabricantes para asegurarnos de que ofrecemos productos de la más alta calidad y al mejor precio posible.</p>
           <p className="paragraph-us">
-         Esperamos poder ayudarlo a satisfacer sus necesidades de investigación y ser su proveedor de confianza para los insumos de laboratorio."</p>
-            <p className="mt-md-4 paragraph-us fw-bold text-uppercase">Gracias por elegir Seasinglab!</p>
+         Esperamos poder ayudarlo a satisfacer sus necesidades de investigación y ser su proveedor de confianza para los insumos de laboratorio.</p>
+            <p className="mt-md-4 paragraph-us fw-bold text-uppercase fs-5">Gracias por elegir Seasinglab!</p>
         </Col>
       </Row>
     </Container>

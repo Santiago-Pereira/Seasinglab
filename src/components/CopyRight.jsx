@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const CopyRight = () => {
   return (
-    <Container fluid className="copy-container">
+    <Container fluid className="copy-container py-3">
       <Row>
         <Col>
-          <p className="copyright text-center">
+          <p className="copyright text-center m-0">
             © 2023. Seasinglab Tandil. Todos los derechos reservados. Hecho por{" "}
             <a
               href="https://www.linkedin.com/in/lis-medina/"

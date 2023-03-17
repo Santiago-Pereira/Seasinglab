@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Container, Row } from "react-bootstrap";
 
 function ContactForm() {
   const form = useRef();
@@ -38,9 +39,10 @@ function ContactForm() {
       );
   };
   return (
-    <div className="contact">
+    <Container fluid className="contact min-vh-100 py-5 d-flex align-items-center justify-content-center">
+    <Row>
     <h2 className="text-center my-4 contact">CONTACTO</h2>
-    <h4 className="text-center mb-3 mb-md-0">Completá con tus datos y un asesor te contactará a la brevedad.</h4>
+    <h4 className="text-center pb-4 opb-md-0 ">Completá con tus datos y un asesor te contactará a la brevedad.</h4>
 
     <div className="formulario">
 
@@ -81,7 +83,8 @@ function ContactForm() {
       </form>
       <ToastContainer />
     </div>
-    </div>
+    </Row>
+    </Container>
 
   );
 };
