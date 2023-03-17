@@ -5,8 +5,11 @@ import Us from "./components/Us";
 import CopyRight from "./components/CopyRight";
 import Whatsapp from "./components/Whatsapp";
 import BackToTop from "./components/BackToTop";
-import BrandsCarousel from "./components/BrandsCarousel";
 import ContactForm from "./components/ContactForm";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Carousel from "./components/Carousel";
+import Brands from "./components/Brands";
 
 function App() {
   return (
@@ -17,12 +20,14 @@ function App() {
       <main>
         <Banner />
         <Us />
-        <BrandsCarousel />
+        <Carousel/>
         <ContactForm id="scroll-down" />
+        <Brands/>
       </main>
       <footer>
         <SectionFooter />
-      </footer>
+      </footer>       
+
       <CopyRight />
       <BackToTop />
       <Whatsapp />

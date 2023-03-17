@@ -9,7 +9,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('https://res.cloudinary.com/dmatgvjjy/image/upload/v1678233148/Seasinglab/fondoBody_nhecjy.jpg');
+  background-image: url("https://res.cloudinary.com/dmatgvjjy/image/upload/v1678233148/Seasinglab/fondoBody_nhecjy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,14 +110,12 @@ a:hover {
 .us {
   height: 100vh;
   margin-top: 10rem;
-
 }
 
 @media only screen and (max-width: 768px) {
   .us {
     height: 100vh;
     margin-top: 10rem;
-
   }
 }
 
@@ -177,6 +175,14 @@ button[type="submit"] {
   padding: 10px 20px;
   cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+  .formulario {
+    margin-top: 13rem;
+  }
+  form {
+    width: 80%;
+  }
+}
 
 /* Footer styles */
 
@@ -184,14 +190,12 @@ footer {
   height: 15rem;
   background-color: #d9d9d9;
   margin-top: 2rem;
-
 }
 
 @media only screen and (max-width: 768px) {
   footer {
     height: 26rem;
     margin-top: 10rem;
-
   }
 }
 

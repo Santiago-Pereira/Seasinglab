@@ -1,8 +1,5 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import tel from "../images/smartphone.png";
-import email from "../images/envelope.png";
-import location from "../images/pin.png";
 
 // TODO MOVER LAS IMG DENTRO DE LOS A !
 function SectionFooter() {
@@ -11,7 +8,7 @@ function SectionFooter() {
       <Row>
         <Col sm={12} md={4} lg={4} className="footer-general">
           <img
-            src={email}
+            src="./images/envelope.png"
             className="footer-icons-styles img-fluid"
             alt="email icon "
             loading="lazy"
@@ -28,7 +25,7 @@ function SectionFooter() {
         </Col>
         <Col sm={12} md={4} lg={4} className="footer-general">
           <img
-            src={tel}
+            src="./images/smartphone.png"
             className="footer-icons-styles img-fluid"
             alt="tel icon"
             loading="lazy"
@@ -42,7 +39,7 @@ function SectionFooter() {
         </Col>
         <Col sm={12} md={4} lg={4} className="footer-general">
           <img
-            src={location}
+            src="./images/pin.png"
             className="footer-icons-styles img-fluid"
             alt="location icon"
             loading="lazy"
