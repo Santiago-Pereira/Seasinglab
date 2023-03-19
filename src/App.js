@@ -9,7 +9,7 @@ import ContactForm from "./components/ContactForm";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Carousel from "./components/Carousel";
-// import Brands from "./components/Brands";
+import Clients from "./components/Clients";
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
       <main>
         <Banner />
         <Us />
-        <Carousel/>
+        <Carousel />
         <ContactForm id="scroll-down" />
-        {/* <Brands/> */}
+        <Clients />
       </main>
       <footer>
         <SectionFooter />
