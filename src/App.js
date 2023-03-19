@@ -9,8 +9,7 @@ import ContactForm from "./components/ContactForm";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Marcas from "./components/Marcas";
-// import Brands from "./components/Brands";
-
+import Clients from "./components/Clients";
 function App() {
   return (
     <>
