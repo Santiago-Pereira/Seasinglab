@@ -41,27 +41,21 @@ const Clients = () => {
         },
       },
     ],
-
-    // afterChange: function (index) {
-    //     console.log(
-    //         `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-    //     );
-    // }
   };
   return (
     <>
-      <Container className="clients-carousel min-vh-100">
+      <Container className="clients-carousel min-vh-35 py-5">
         <Row>
           <Col>
-            <h2 className="text-center">Algunos de nuestros clientes</h2>
+            <h2 className="text-center fw-bold pb-2">
+              Algunos de nuestros clientes
+            </h2>
           </Col>
         </Row>
 
         <Row>
           <Col>
             <Slider {...settings}>
-             
-
               <div>
                 <img
                   src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/amcor_zahdhc.png"
@@ -142,7 +136,7 @@ const Clients = () => {
                   className="img-fluid"
                 />
               </div>
-            
+
               <div>
                 <img
                   src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/loma_zhwfao.png"

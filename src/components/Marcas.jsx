@@ -43,10 +43,12 @@ const Marcas = () => {
   };
   return (
     <>
-      <Container className="clients-carousel min-vh-100">
+      <Container className="clients-carousel min-vh-35 py-5">
         <Row>
           <Col>
-            <h2 className="text-center">Algunos de nuestras Marcas</h2>
+            <h2 className="text-center fw-bold pb-2">
+              Algunas de nuestras Marcas
+            </h2>
           </Col>
         </Row>
 
@@ -63,7 +65,7 @@ const Marcas = () => {
               </div>
               <div>
                 <img
-                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250676/Seasinglab/biopack_rej1i2.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250675/Seasinglab/biopack_rf4c4g.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
