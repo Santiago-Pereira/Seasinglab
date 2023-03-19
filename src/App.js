@@ -20,9 +20,9 @@ function App() {
       <main>
         <Banner />
         <Us />
-        <Marcas/>
+        <Marcas />
         <ContactForm id="scroll-down" />
-        {/* <Brands/> */}
+        <Clients />
       </main>
       <footer>
         <SectionFooter />
