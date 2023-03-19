@@ -14,7 +14,7 @@ const Carousel = () => {
     centerMode: true,
     cssEase: "linear",
     swipeToSlide: true,
-    pauseOnHover: true,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -43,7 +43,7 @@ const Carousel = () => {
   };
   return (
     <>
-      <Container fluidclassName="clients-carousel min-vh-100">
+      <Container className="clients-carousel min-vh-100">
         <Row>
           <Col>
             <h2 className="text-center">Algunos de nuestros clientes</h2>
@@ -58,35 +58,88 @@ const Carousel = () => {
               </div>
 
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\anedra-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\biopack-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\cica-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\delta-no-back3.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\gamafil-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\glassco-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\iva-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+                <img
+                  src=".\images\merck-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
               </div>
-
+              <div>
+                <img
+                  src=".\images\sanjor-no-back.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
+              </div>
+              <div>
+                <img
+                  src=".\images\thermo.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
+              </div>
             </Slider>
           </Col>
-
         </Row>
-
       </Container>
     </>
   );
