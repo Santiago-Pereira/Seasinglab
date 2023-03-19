@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Slider from "react-slick";
 
-const Carousel = () => {
+const Marcas = () => {
   const settings = {
     infinite: true,
     autoplay: true,
@@ -46,7 +46,7 @@ const Carousel = () => {
       <Container className="clients-carousel min-vh-100">
         <Row>
           <Col>
-            <h2 className="text-center">Algunos de nuestros clientes</h2>
+            <h2 className="text-center">Algunos de nuestras Marcas</h2>
           </Col>
         </Row>
 
@@ -54,12 +54,8 @@ const Carousel = () => {
           <Col>
             <Slider {...settings}>
               <div>
-                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-              </div>
-
-              <div>
                 <img
-                  src=".\images\anedra-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250676/Seasinglab/anedra_a7gubo.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -67,7 +63,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\biopack-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250676/Seasinglab/biopack_rej1i2.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -75,7 +71,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\cica-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250676/Seasinglab/cicarelli_pvrerc.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -83,7 +79,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\delta-no-back3.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250676/Seasinglab/deltalab_pzmxqj.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -91,7 +87,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\gamafil-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250677/Seasinglab/gamafil_n17ubr.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -99,7 +95,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\glassco-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250677/Seasinglab/glassco_z8inzf.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -107,7 +103,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\iva-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250677/Seasinglab/iva_onwk3h.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -115,7 +111,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\merck-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250677/Seasinglab/merck_nq1b0w.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -123,7 +119,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\sanjor-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250677/Seasinglab/sanjor_ov1orz.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -131,7 +127,7 @@ const Carousel = () => {
               </div>
               <div>
                 <img
-                  src=".\images\thermo.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679250677/Seasinglab/thermo_fsy4dg.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -145,4 +141,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Marcas;
