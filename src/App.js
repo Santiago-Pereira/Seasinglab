@@ -8,7 +8,7 @@ import BackToTop from "./components/BackToTop";
 import ContactForm from "./components/ContactForm";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Carousel from "./components/Carousel";
+import Marcas from "./components/Marcas";
 // import Brands from "./components/Brands";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <main>
         <Banner />
         <Us />
-        <Carousel/>
+        <Marcas/>
         <ContactForm id="scroll-down" />
         {/* <Brands/> */}
       </main>
