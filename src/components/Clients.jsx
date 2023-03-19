@@ -60,18 +60,11 @@ const Clients = () => {
         <Row>
           <Col>
             <Slider {...settings}>
-              <div>
-                <img
-                  src="./images/clientes/advanta-no-back.png"
-                  alt="logo"
-                  loading="lazy"
-                  className="img-fluid"
-                />
-              </div>
+             
 
               <div>
                 <img
-                  src="./images/clientes/amcor-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/amcor_zahdhc.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -79,7 +72,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/cagnoli-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/cagnoli_vqt3zf.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -87,7 +80,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/conicet-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253374/Seasinglab/clientes/elanco_dwc7pz.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -95,7 +88,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/Elanco.svg.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/advanta_vskxwa.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -103,7 +96,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/advanta-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/inti_mskoej.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -111,7 +104,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/inia-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/inidep_vzshun.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -119,7 +112,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/inidep-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/biopack_xbedf7.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -127,7 +120,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/inta.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/inta_luiosd.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -135,7 +128,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/latu-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/latu_oq7ku6.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -143,7 +136,16 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/inti-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/inti_mskoej.png"
+                  alt="logo"
+                  loading="lazy"
+                  className="img-fluid"
+                />
+              </div>
+            
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253375/Seasinglab/clientes/loma_zhwfao.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -151,7 +153,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/Logo-Biogenesis-bago.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253376/Seasinglab/clientes/monsanto_d1diqm.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
@@ -159,23 +161,7 @@ const Clients = () => {
               </div>
               <div>
                 <img
-                  src="./images/clientes/loma-negra-logo.png"
-                  alt="logo"
-                  loading="lazy"
-                  className="img-fluid"
-                />
-              </div>
-              <div>
-                <img
-                  src="./images/clientes/monsanto-2.png"
-                  alt="logo"
-                  loading="lazy"
-                  className="img-fluid"
-                />
-              </div>
-              <div>
-                <img
-                  src="./images/clientes/zoovac-no-back.png"
+                  src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1679253376/Seasinglab/clientes/zoovac_ymmfa2.png"
                   alt="logo"
                   loading="lazy"
                   className="img-fluid"
