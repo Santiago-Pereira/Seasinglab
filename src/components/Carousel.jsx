@@ -43,45 +43,51 @@ const Carousel = () => {
   };
   return (
     <>
-      <Container fluid className="clients-carousel">
+      <Container fluidclassName="clients-carousel min-vh-100">
         <Row>
           <Col>
             <h2 className="text-center">Algunos de nuestros clientes</h2>
           </Col>
         </Row>
-      </Container>
-      <div>
-        <Slider {...settings}>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
 
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-          <div>
-            <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
-          </div>
-        </Slider>
-      </div>
+        <Row>
+          <Col>
+            <Slider {...settings}>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+              <div>
+                <img src="./images/cagnoli.png" alt="logo" loading="lazy" />
+              </div>
+
+            </Slider>
+          </Col>
+
+        </Row>
+
+      </Container>
     </>
   );
 };
