@@ -1,39 +1,38 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 function Menu() {
   return (
-    <Navbar fixed="top" expand="lg" className="nav-styles fixed-top">
-      <Navbar.Brand href="#home">
-        <img
-          src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1677795133/Seasinglab/Proyecto_nuevo_1_supps8.png"
-          className="d-inline-block align-top"
-          alt="logo Seasinglab"
-        />
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" className="collapse">
-        <Nav className="ms-auto nav-links">
-          <Nav.Link href="#home" className="nav-links">
-            INICIO
-          </Nav.Link>
-          <Nav.Link href="#link" className="nav-links">
-            NOSOTROS
-          </Nav.Link>
-          <Nav.Link href="#home" className="nav-links">
-            CONTACTO
-          </Nav.Link>
-          <NavDropdown title="PRODUCTOS" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Cat 1</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Cat 2</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Cat 3</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <Container>
+        <Navbar fixed="top" expand="lg" className="nav-styles ">
+        <Container>
+          <Navbar.Brand>
+            <img
+              src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1677795133/Seasinglab/Proyecto_nuevo_1_supps8.png"
+              className="d-inline-block align-top"
+              alt="logo Seasinglab"
+            />
+          </Navbar.Brand>
+             
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav" className="collapse">
+            <Nav className="ms-auto nav-links">
+           
+            
+              <Nav.Link href="#us" className="nav-links">
+                NOSOTROS
+              </Nav.Link>
+              <Nav.Link href="#contact" className="nav-links">
+                CONTACTO
+              </Nav.Link>
+            
+            </Nav>
+          </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    </Container>
   );
 }
 

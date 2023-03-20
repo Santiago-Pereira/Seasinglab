@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Us() {
   return (
-    <Container fluid className="us">
+    <Container fluid className="us" id="us">
       <Container className="d-flex align-items-center min-vh-100 py-5">
         <Row>
           <Col sm={12} md={6} className="d-flex flex-column align-items-center">

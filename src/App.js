@@ -13,6 +13,7 @@ import Clients from "./components/Clients";
 function App() {
   return (
     <>
+
       <header>
         <Menu />
       </header>
@@ -20,7 +21,7 @@ function App() {
         <Banner />
         <Us />
         <Marcas />
-        <ContactForm id="scroll-down" />
+        <ContactForm />
         <Clients />
       </main>
       <footer>
@@ -29,6 +30,7 @@ function App() {
         <BackToTop />
         <Whatsapp />
       </footer>
+
     </>
   );
 }
