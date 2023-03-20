@@ -26,7 +26,7 @@ Para dar estilos.
 
 ## Pasos para levantar el proyecto localmente:
 
-git clone 
+git clone
 npm install
 cd Seasinglab
 npm start
