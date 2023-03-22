@@ -10,6 +10,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Marcas from "./components/Marcas";
 import Clients from "./components/Clients";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 function App() {
   return (
     <>

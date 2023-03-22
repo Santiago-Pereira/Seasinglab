@@ -16,7 +16,7 @@ El proyecto es bastante sencillo, se trata de una SPA de una pagina de presentac
 Librerías utilizadas:
 
 -[Emailjs Browser] (https://www.emailjs.com/): 
-Para para enviar emails desde el sito web a traves de un formulario   
+Para para enviar emails desde el sito web a traves de un formulario
 
 -[Bootstrap Icons] (https://icons.getbootstrap.com/):
 Para utilizar iconos.

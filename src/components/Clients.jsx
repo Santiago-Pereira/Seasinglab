@@ -11,7 +11,6 @@ const Clients = () => {
     className: "center",
     centerPadding: "60px",
     slidesToShow: 5,
-    centerMode: true,
     cssEase: "linear",
     swipeToSlide: true,
     pauseOnHover: true,
@@ -22,7 +21,6 @@ const Clients = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
         },
       },
       {

@@ -11,7 +11,6 @@ const Marcas = () => {
     className: "center",
     centerPadding: "60px",
     slidesToShow: 5,
-    centerMode: true,
     cssEase: "linear",
     swipeToSlide: true,
     pauseOnHover: false,

@@ -1,7 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function Menu() {
   return (

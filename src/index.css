@@ -201,11 +201,18 @@ footer {
 /* ----------------------MQ---------------------------*/
 @media (max-width: 600px) {
   #basic-navbar-nav {
-    height: 100vh;
+    height: 15vh;
     overflow: hidden;
-    transition: all 3s ease-in-out;
+    transition: all 1s ease-in-out;
     background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 1rem;
   }
+  .navbar-toggler{
+    margin-right: 1.5rem;
+    color:lightgray;
+    border:lightgray 1.5px solid;
+ }
+ 
 }
 
 @media only screen and (max-width: 768px) {
