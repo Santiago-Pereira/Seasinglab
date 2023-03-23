@@ -5,6 +5,8 @@
 
 El proyecto es bastante sencillo, se trata de una SPA de una pagina de presentación de una reconocida  empresa de Tandil que vende insumos para laboratorios confeccionada con React con el fin de mejorar su imagen en línea.
 
+English: This is a project built in React js, The idea is a SPA for a well known bussines in the city of Tandil, Buenos Aires (Argentina) which its field is to sell Lab and research supplies for either private and public clients.
+The client was looking for a simple and minimalist website which gives the potencial buyers the posibility to contact with an assesor to recieve the info they need about products and brands.
 
 ## Authors
 
