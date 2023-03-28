@@ -6,7 +6,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto";
+  font-family: -apple-system, BlinkMacSystemFont,
+    /* "Roboto", */ "Brisa Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("https://res.cloudinary.com/dmatgvjjy/image/upload/v1678233148/Seasinglab/fondoBody_nhecjy.jpg");
@@ -45,8 +46,6 @@ a:hover {
 #basic-nav-dropdown {
   color: white;
 }
-
-
 
 /* ----------------------hero---------------------------*/
 .hero {
@@ -90,7 +89,7 @@ a:hover {
 
 /* ----------------------about us---------------------------*/
 .us {
-  background-color: #ddd;
+  background-color: #0099b9;
 }
 
 .paragraph-us {
@@ -151,7 +150,6 @@ footer {
   background-color: lightgray;
 }
 
-
 .footer-styles {
   font-size: 1.5rem;
 }
@@ -207,12 +205,11 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
     padding-top: 1rem;
   }
-  .navbar-toggler{
+  .navbar-toggler {
     margin-right: 1.5rem;
-    color:lightgray;
-    border:lightgray 1.5px solid;
- }
- 
+    color: lightgray;
+    border: lightgray 1.5px solid;
+  }
 }
 
 @media only screen and (max-width: 768px) {

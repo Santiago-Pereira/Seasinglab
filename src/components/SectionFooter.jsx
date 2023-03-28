@@ -18,7 +18,6 @@ function SectionFooter() {
             className="footer-styles"
             target="_blank"
             rel="noreferrer"
-
           >
             seasinglab@gmail.com
           </a>
@@ -35,7 +34,9 @@ function SectionFooter() {
             className="footer-styles"
             target="_blank"
             rel="noreferrer"
-          >+54-2494-620208</a>
+          >
+            +54-249-4620208
+          </a>
         </Col>
         <Col sm={12} md={4} lg={4} className="footer-general  pb-md-0">
           <img

@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { Container, Row } from "react-bootstrap";
 
 function ContactForm() {
   const form = useRef();
 
   const alertMsj = () => {
-    toast.success('✅ Mensaje enviado con éxito !', {
+    toast.success("✅ Mensaje enviado con éxito !", {
       position: "top-center",
       autoClose: 1000,
       hideProgressBar: true,
@@ -17,7 +17,7 @@ function ContactForm() {
       progress: undefined,
       theme: "dark",
     });
-  }
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -31,7 +31,7 @@ function ContactForm() {
       .then(
         (result) => {
           console.log(result.text);
-          alertMsj()
+          alertMsj();
         },
         (error) => {
           console.log(error.text);
@@ -39,54 +39,45 @@ function ContactForm() {
       );
   };
   return (
-    <Container id="contact" fluid className="contact min-vh-100 py-5 d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
-    <Row>
-    <h2 className="text-center my-4 contact">CONTACTO</h2>
-    <h4 className="text-center pb-4 opb-md-0 ">Completá con tus datos y un asesor te contactará a la brevedad.</h4>
+    <Container
+      id="contact"
+      fluid
+      className="contact min-vh-100 py-5 d-flex align-items-center justify-content-center"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-once="true"
+    >
+      <Row>
+        <h2 className="text-center my-4 contact">CONTACTO</h2>
+        <h4 className="text-center pb-4 opb-md-0 ">
+          Completá con tus datos y un asesor te contactará a la brevedad.
+        </h4>
 
-    <div className="formulario">
-
-      <form ref={form} onSubmit={sendEmail}>
-        <label htmlFor="nombre">Nombre:</label>
-        <input
-          type="text"
-          id="nombre"
-          name="nombre"
-          required
-          placeholder="Decinos tu nombre"
-        />
-        <label htmlFor="email">Correo electrónico:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          placeholder="Decinos tu e-mail"
-        />
-        <label htmlFor="telefono">Teléfono:</label>
-        <input
-          type="tel"
-          id="telefono"
-          name="telefono"
-          required
-          placeholder="Decinos tu teléfono"
-        />
-        <label htmlFor="consulta">Dejanos tu consulta</label>
-        <textarea
-          id="consulta"
-          name="consulta"
-          rows="4"
-          cols="33"
-          placeholder="Contanos tu inquietud"
-        ></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-      <ToastContainer />
-    </div>
-    </Row>
+        <div className="formulario">
+          <form ref={form} onSubmit={sendEmail}>
+            <label htmlFor="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+            <label htmlFor="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required />
+            <label htmlFor="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required />
+            <label htmlFor="consulta">Dejanos tu consulta</label>
+            <textarea
+              id="consulta"
+              name="consulta"
+              rows="4"
+              cols="33"
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+          <ToastContainer />
+        </div>
+      </Row>
     </Container>
-
   );
-};
+}
 
 export default ContactForm;
