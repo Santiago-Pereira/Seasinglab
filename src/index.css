@@ -6,8 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont,
-    /* "Roboto", */ "Brisa Regular";
+  font-family: -apple-system, BlinkMacSystemFont, "Dancing Script";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("https://res.cloudinary.com/dmatgvjjy/image/upload/v1678233148/Seasinglab/fondoBody_nhecjy.jpg");
@@ -46,6 +45,9 @@ a:hover {
 #basic-nav-dropdown {
   color: white;
 }
+.seasing-logo {
+  height: 85px;
+}
 
 /* ----------------------hero---------------------------*/
 .hero {
@@ -65,9 +67,11 @@ a:hover {
   font-weight: 500;
 }
 
-.seasing-title h1 {
+h1 {
   line-height: 53px;
   letter-spacing: 2px;
+  font-family: "Brisa Regular";
+  font-size: 4rem;
 }
 
 .bannerParagraph {
@@ -80,6 +84,7 @@ a:hover {
   color: #ffffff;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  font-size: 1.5rem;
 }
 
 .btn-hero:hover {
@@ -89,7 +94,26 @@ a:hover {
 
 /* ----------------------about us---------------------------*/
 .us {
-  background-color: #0099b9;
+  background: rgb(6, 98, 94);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06625e",endColorstr="#06625e",GradientType=1);
 }
 
 .paragraph-us {
@@ -98,9 +122,33 @@ a:hover {
   line-height: 1.5em;
 }
 
+/* ----------------------clients carousel---------------------------*/
+.clients-carousel {
+  background-color: whitesmoke;
+}
+
 /* ----------------------form---------------------------*/
 .contact {
-  background-color: #ddd;
+  background: rgb(6, 98, 94);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06625e",endColorstr="#06625e",GradientType=1);
 }
 .formulario {
   display: flex;
@@ -147,7 +195,26 @@ button[type="submit"]:hover {
 /* ----------------------footer---------------------------*/
 
 footer {
-  background-color: lightgray;
+  background: rgb(6, 98, 94);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(6, 98, 94, 1) 5%,
+    rgba(0, 153, 185, 1) 50%,
+    rgba(6, 98, 94, 1) 95%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06625e",endColorstr="#06625e",GradientType=1);
 }
 
 .footer-styles {
@@ -174,6 +241,9 @@ footer {
   z-index: 2000;
   transition: all 1s ease-in-out;
 }
+.btn-wpp :hover {
+  background-color: #0099b9 !important;
+}
 
 /* ----------------------btn back to top---------------------------*/
 .back-to-top-btn {
@@ -189,7 +259,7 @@ footer {
 
 /* ----------------------copyright---------------------------*/
 .copy-container {
-  background: gray;
+  background: rgb(10, 10, 10);
 }
 .copyright {
   color: white;

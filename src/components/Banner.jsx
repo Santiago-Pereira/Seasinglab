@@ -17,7 +17,7 @@ const Banner = () => {
             Proveemos insumos generales, equipamiento y reactivos para
             laboratorio
           </p>
-          <a href="#contact" className="btn-hero border-0 fs-6">
+          <a href="#contact" className="btn-hero border-0">
             Contacto
           </a>
         </div>
