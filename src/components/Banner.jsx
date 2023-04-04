@@ -12,7 +12,7 @@ const Banner = () => {
         data-aos-once="true"
       >
         <div className="text-center">
-          <h1 className="pb-3">Química & Instrumental</h1>
+          <h1 className="pb-3 text-uppercase">Química & Instrumental</h1>
           <p className="pb-3 bannerParagraph d-none d-md-block">
             Proveemos insumos generales, equipamiento y reactivos para
             laboratorio
