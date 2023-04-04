@@ -1,12 +1,7 @@
-@font-face {
-  font-family: "Brisa Regular";
-  src: url("./fonts/Brisa\ Regular.ttf") format("truetype");
-}
-
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Dancing Script";
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans Simplified Chinese";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("https://res.cloudinary.com/dmatgvjjy/image/upload/v1678233148/Seasinglab/fondoBody_nhecjy.jpg");
@@ -62,7 +57,7 @@ a:hover {
 }
 
 .seasing-title {
-  font-family: "Brisa Regular";
+  font-family: "Noto Sans Simplified Chinese";
   font-size: 5rem;
   font-weight: 500;
 }
@@ -70,7 +65,7 @@ a:hover {
 h1 {
   line-height: 53px;
   letter-spacing: 2px;
-  font-family: "Brisa Regular";
+  font-family: "Noto Sans Simplified Chinese";
   font-size: 4rem;
 }
 
@@ -93,27 +88,9 @@ h1 {
 }
 
 /* ----------------------about us---------------------------*/
-.us {
-  background: rgb(6, 98, 94);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06625e",endColorstr="#06625e",GradientType=1);
+.us-border {
+  border: 5px solid #0099b9;
+  border-radius: 25px;
 }
 
 .paragraph-us {
@@ -129,26 +106,8 @@ h1 {
 
 /* ----------------------form---------------------------*/
 .contact {
-  background: rgb(6, 98, 94);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06625e",endColorstr="#06625e",GradientType=1);
+  border: 5px solid #0099b9;
+  border-radius: 25px;
 }
 .formulario {
   display: flex;
@@ -195,26 +154,7 @@ button[type="submit"]:hover {
 /* ----------------------footer---------------------------*/
 
 footer {
-  background: rgb(6, 98, 94);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(6, 98, 94, 1) 5%,
-    rgba(0, 153, 185, 1) 50%,
-    rgba(6, 98, 94, 1) 95%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06625e",endColorstr="#06625e",GradientType=1);
+  background-color: rgb(0, 153, 185, 0.2);
 }
 
 .footer-styles {

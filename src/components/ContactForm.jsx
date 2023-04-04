@@ -41,7 +41,6 @@ function ContactForm() {
   return (
     <Container
       id="contact"
-      fluid
       className="contact min-vh-100 py-5 d-flex align-items-center justify-content-center"
       data-aos="fade-up"
       data-aos-offset="200"
@@ -51,8 +50,8 @@ function ContactForm() {
       data-aos-once="true"
     >
       <Row>
-        <h2 className="text-center my-4 contact">CONTACTO</h2>
-        <h4 className="text-center pb-4 opb-md-0 ">
+        <h2 className="text-center my-4">CONTACTO</h2>
+        <h4 className="text-center pb-4 pb-md-0 ">
           Completá con tus datos y un asesor te contactará a la brevedad.
         </h4>
 

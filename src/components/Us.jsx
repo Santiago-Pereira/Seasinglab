@@ -3,11 +3,23 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Us() {
   return (
-
-    <Container fluid className="us" id="us" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+    <Container
+      fluid
+      id="us"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-once="true"
+    >
       <Container className="d-flex align-items-center min-vh-100 py-5">
-        <Row>
-          <Col sm={12} md={6} className="d-flex flex-column align-items-center">
+        <Row className="justify-content-center">
+          <Col
+            sm={12}
+            md={5}
+            className="d-flex flex-column align-items-center us-border p-5 mx-lg-5 m-4"
+          >
             <h3 className="text-center text-uppercase fw-bold">
               Quiénes somos
             </h3>
@@ -40,7 +52,11 @@ function Us() {
               asesoramiento especializado.
             </p>
           </Col>
-          <Col sm={12} md={6} className="d-flex flex-column align-items-center">
+          <Col
+            sm={12}
+            md={5}
+            className="d-flex flex-column align-items-center us-border p-5 mx-lg-5 m-4"
+          >
             <h3 className="text-center text-uppercase fw-bold mt-5 mt-md-0">
               Nuestra misión
             </h3>
