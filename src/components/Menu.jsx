@@ -10,7 +10,7 @@ function Menu() {
         <Container>
           <Navbar.Brand>
             <img
-              src="/images/logo seasinglab 2.png"
+              src="https://res.cloudinary.com/dmatgvjjy/image/upload/v1680795204/Seasinglab/LOGO_jlgpfo.png"
               className="seasing-logo d-inline-block align-top img-fluid "
               alt="logo Seasinglab"
             />
