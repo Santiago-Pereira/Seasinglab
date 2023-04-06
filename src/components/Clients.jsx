@@ -4,6 +4,7 @@ import Slider from "react-slick";
 
 const Clients = () => {
   const settings = {
+    arrows:false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
