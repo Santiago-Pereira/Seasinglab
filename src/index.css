@@ -63,10 +63,9 @@ a:hover {
 }
 
 h1 {
-  line-height: 53px;
-  letter-spacing: 2px;
+  
   font-family: "Noto Sans Simplified Chinese";
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .bannerParagraph {
