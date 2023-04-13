@@ -5,17 +5,24 @@ import "react-toastify/dist/ReactToastify.css";
 import { Container, Row } from "react-bootstrap";
 
 function ContactForm() {
-  const form = useRef();
+  const form = useRef(null);
+
 
   const alertMsj = () => {
-    toast.success("✅ Mensaje enviado con éxito !", {
-      position: "top-center",
-      autoClose: 1000,
+    toast.success("Enviado!", {
+      position: "bottom-center",
+      autoClose: 1500,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: false,
       progress: undefined,
       theme: "dark",
+      style: {
+        width: '500px',
+        padding:'1rem', // ancho del alert
+        fontSize: '30px' ,// tamaño de la fuente
+        backgroundColor:'lightgrey'
+      }
     });
   };
 
@@ -37,6 +44,8 @@ function ContactForm() {
           console.log(error.text);
         }
       );
+      form.current.reset();
+
   };
   return (
     <Container
